@@ -5,7 +5,7 @@ from perswebs import app
 @app.route('/')
 @app.route('/home')
 def home():
-    return render_template('home.html', posts=posts)
+    return render_template('home.html')
 
 # About page
 @app.route('/about')
