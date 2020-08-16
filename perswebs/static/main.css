@@ -2,3 +2,12 @@
     color:white;
     font-size: 2rem;
 }
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
