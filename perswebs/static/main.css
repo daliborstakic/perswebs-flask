@@ -1,17 +1,38 @@
-.img-fluid {
-    max-width: 100%;
-}
 .no-padding {
     padding-left: 0;
     padding-right: 0;
 }
 
-.maintxt {
+.heading-text {
     text-align: center;
-    color:#ffffff;
-    padding: 3rem;
+    color:#EEECDA;
+    font-size:3em;
 }
 
-#img-div {
+#header-top {
+    font-size:4em;
+}
+
+.row {
     background-image: url("../static/imgs/bgimg.jpg");
+    padding:2rem;
+}
+
+.col-md-6 {
+    padding: 2em;
+}
+
+.info-text {
+    color:#EEECDA;
+    font-size:1.2em;
+}
+
+.border-text {
+    background: rgba(238, 236, 218, 0.2);
+    border: 2px solid #EEECDA;
+    padding: 2em;
+}
+
+.border-text:hover {
+    background: rgba(184, 59, 94, 0.7);
 }
