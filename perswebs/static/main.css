@@ -9,11 +9,13 @@
     font-size:3em;
 }
 
-#header-top {
-    font-size:4em;
+h1 {
+    color:#EEECDA;
+    text-align: center;
+    font-size: 4em;
 }
 
-.row {
+#header-row {
     background-image: url("../static/imgs/bgimg.jpg");
     padding:2rem;
 }
@@ -34,5 +36,10 @@
 }
 
 .border-text:hover {
-    background: rgba(184, 59, 94, 0.7);
+    background: rgba(240, 138, 93, 0.3);
+}
+
+#github-row {
+    background-color: #f08a5d;
+    padding: 2rem;
 }
