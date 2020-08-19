@@ -5,12 +5,12 @@
 
 .heading-text {
     text-align: center;
-    color:#EEECDA;
+    color:#f5f5f5;
     font-size:3em;
 }
 
 h1 {
-    color:#EEECDA;
+    color:#f5f5f5;
     text-align: center;
     font-size: 4em;
 }
@@ -25,23 +25,27 @@ h1 {
 }
 
 .info-text {
-    color:#EEECDA;
+    color:#f5f5f5;
     font-size:1.2em;
     padding-top: 1rem;
 }
 
 .border-text {
-    background: rgba(238, 236, 218, 0.2);
-    border: 2px solid #EEECDA;
+    background: rgba(222, 205, 195, 0.2);
+    border: 2px solid #f5f5f5;
     padding: 2em;
 }
 
-.border-text:hover {
-    background: rgba(240, 138, 93, 0.3);
+#about:hover {
+    background: rgba(234, 84, 85, 0.5);
+}
+
+#contact:hover {
+    background: rgba(45, 64, 89, 0.5);
 }
 
 #github-row {
-    background-color: #f08a5d;
+    background-color: #ea5455;
     padding: 2rem;
 }
 
@@ -52,4 +56,20 @@ h1 {
 
 .img-responsive {
     width: 100%;
+}
+
+footer {
+    background-color: #2d4059;
+    padding: 1rem;
+    color: #f5f5f5;
+}
+
+a {
+    color: #ea5455;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5;
 }
