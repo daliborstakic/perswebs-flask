@@ -17,4 +17,4 @@ I would like to implement some sort of Web Scraping using the GitHub ApiV3 so I 
 * Visual Studio Code
 
 ### References
-[Thomas Frank's Website](www.thomasjfrank.com)
+[Thomas Frank's Website](https://www.thomasjfrank.com)
